@@ -21,14 +21,15 @@ It calculates seats ordered and additional details, initially it returns the est
 
 
 
-##Setup
+###Setup
 
 * _Clone this repo_
 * _run App.java_
 
-## Technologies Used
-Java
-Github
-Intellij CE
+### Technologies Used
+
+* _Java_
+* _Github_
+* _Intellij CE_
 
 Copyright (c) 2017 **1wayoranother**
