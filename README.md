@@ -12,12 +12,14 @@ It calculates seats ordered and additional details, initially it returns the est
 ### Specification
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| it returns Return Cost Only For Music With Wrong Coupon number | guest Count = 100, food = includes, drinks = includes, music = includes, coupon number = ... | "7899" |
-| it returns Return Cost Only For Drinks With NoCoupon | guest Count = 100, food = not includes, drinks = not includes, music = not includes | XX |
-| it returns cost on guest count for cheap party | guest Count = 9, food = not includes, drinks = not includes, music = includes | XX |
-| it returns cost on guest count for cheap party | guest Count = 9, food = not includes, drinks = includes, music = includes | XX |
-| it returns cost on guest count for cheap party | guest Count = 9, food = not includes, drinks = includes, music = not includes | XX |
-| it returns cost on guest count for cheap party | guest Count = 9, food = includes, drinks = includes, music = not includes | XX |
+| it returns Cost Only For Music With Wrong Coupon number | guest Count = 100, food = false, drinks = false, music = true, coupon number = "7899" | 3500 |
+| it returns Cost Only For Drinks With No Coupon | guest Count = 100, food = false, drinks = true, music = false, coupon number = "no" | 2500 |
+| it returns Cost Only For Food With No Coupon | guest Count = 100, food = true, drinks = false, music = false, coupon number = "no" | 1500 |
+| it returns Cost Only For Food With No Coupon | guest Count = 100, food = false, drinks = true, music = true, coupon number = "#B17" | 6000 |
+| it returns Cost Only For Drinks And Music With Coupon Code | guest Count = 100, food = false, drinks = true, music = false, coupon number = "no" | 5945 |
+| it returns Cost Only For Music With No Coupon 10 people | guest Count = 10, food = false, drinks = true, music = false, coupon number = "no" | 250 |
+| it returns Cost Only For Music With No Coupon 1 person | guest Count = 1, food = false, drinks = true, music = false, coupon number = "no" | 25 |
+
 
 
 
