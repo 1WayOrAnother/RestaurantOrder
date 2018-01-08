@@ -28,5 +28,11 @@ public class OrderTest {
         assertEquals("Should return 6000", 6000, testParty.calculateCost());
     }
 
+    @Test
+    public void shouldReturnCostOnlyForDrinksAndMusicWithCouponCode() throws Exception {
+        Order testParty = new Order(100, false, true, true, "#B17");
+        assertEquals("Should return 6000", 6000, testParty.calculateCost());
+    }
+
 
 }

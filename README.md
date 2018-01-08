@@ -12,8 +12,8 @@ It calculates seats ordered and additional details, initially it returns the est
 ### Specification
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| it returns cost on guest count for cheap party | guest Count = 9, food = includes, drinks = includes, music = includes | XX |
-| it returns cost on guest count for cheap party | guest Count = 9, food = not includes, drinks = not includes, music = not includes | XX |
+| it returns Return Cost Only For Music With Wrong Coupon number | guest Count = 100, food = includes, drinks = includes, music = includes, coupon number = ... | "7899" |
+| it returns Return Cost Only For Drinks With NoCoupon | guest Count = 100, food = not includes, drinks = not includes, music = not includes | XX |
 | it returns cost on guest count for cheap party | guest Count = 9, food = not includes, drinks = not includes, music = includes | XX |
 | it returns cost on guest count for cheap party | guest Count = 9, food = not includes, drinks = includes, music = includes | XX |
 | it returns cost on guest count for cheap party | guest Count = 9, food = not includes, drinks = includes, music = not includes | XX |
