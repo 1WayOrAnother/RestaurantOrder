@@ -49,7 +49,7 @@ public class OrderTest {
     @Test
     public void shouldReturnCostOnlyForFoodNoMusicNoCoupon1person() throws Exception {
         Order testParty = new Order(1, true, false, false, "no");
-        assertEquals("Should return 25", 25, testParty.calculateCost());
+        assertEquals("Should return 15", 15, testParty.calculateCost());
     }
 
 
