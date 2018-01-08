@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec42a2c3-a806-4657-bd7a-fd132195c587" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/test.iml" afterPath="$PROJECT_DIR$/src/test/test.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -355,6 +353,9 @@
     <history-entry file="OrderTest_shouldReturnCostOnlyForFoodWithNoCoupon - 2018.01.08 at 07h 43m 20s.xml">
       <configuration name="OrderTest.shouldReturnCostOnlyForFoodWithNoCoupon" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderTest_shouldReturnCostOnlyForFoodWithNoCoupon - 2018.01.08 at 07h 44m 10s.xml">
+      <configuration name="OrderTest.shouldReturnCostOnlyForFoodWithNoCoupon" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="OrderTest_shouldReturnCostOnlyForMusicWithWrongCoupon - 2018.01.08 at 07h 42m 14s.xml">
       <configuration name="OrderTest.shouldReturnCostOnlyForMusicWithWrongCoupon" configurationId="JUnit" />
     </history-entry>
@@ -561,7 +562,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

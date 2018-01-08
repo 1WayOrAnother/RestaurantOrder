@@ -19,7 +19,7 @@ public class OrderTest {
     @Test
     public void shouldReturnCostOnlyForFoodWithNoCoupon() throws Exception {
         Order testParty = new Order(100, true, false, false, "no");
-        assertEquals("Should return 500", 500, testParty.calculateCost());
+        assertEquals("Should return 1500", 1500, testParty.calculateCost());
     }
 
 
