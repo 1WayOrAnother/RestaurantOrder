@@ -43,7 +43,7 @@ public class OrderTest {
     @Test
     public void shouldReturnCostOnlyForMusicWithNoCoupon10people() throws Exception {
         Order testParty = new Order(10, false, true, false, "no");
-        assertEquals("Should return 200", 200, testParty.calculateCost());
+        assertEquals("Should return 250", 250, testParty.calculateCost());
     }
 
 }

@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="369">
-              <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -562,7 +562,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
-          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
