@@ -13,7 +13,14 @@ public class OrderTest {
     @Test
     public void shouldReturnCostOnlyForDrinksWithNoCoupon() throws Exception {
         Order testParty = new Order(100, false, true, false, "no");
+        assertEquals("Should return 2500", 2500, testParty.calculateCost());
+    }
+
+    @Test
+    public void shouldReturnCostOnlyForFoodWithNoCoupon() throws Exception {
+        Order testParty = new Order(100, true, false, false, "no");
         assertEquals("Should return 500", 500, testParty.calculateCost());
     }
+
 
 }
